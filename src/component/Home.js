@@ -20,11 +20,11 @@ function Home({}) {
 
     return (
         <Container>
-        <div className='cards   '>
+        <div className='cards row   '>
             {
                 product ?
                     product.map((item) => (
-                        <div className=''>
+                        <div className='col-md-4 mt-3'>
                                 <Cards product={item}  title={'Industrial Land'} />
                         </div>
                     ))
