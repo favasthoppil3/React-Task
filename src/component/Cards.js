@@ -14,7 +14,7 @@ function Cards({ product , title}) {
     <div>
 
       <Container >
-        <h3>{JSON.parse(product.propertyType).name}</h3>
+       <h3 className='fs-5'>{JSON.parse(product.propertyType).name}</h3>
         <Card className='cardss' style={{ width: '18rem' }}>
           <Card.Img variant="top" src={JSON.parse(product.images)} style={{ height: '12rem' }} />
           <Card.Body>
